@@ -200,9 +200,16 @@ footer span {
 /*--- Tablet Styles ---*/
 
 @media all and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
     header h1 {
-        font-size: 4em;
+        font-size: 5em;
         margin: 0;
+    }
+    header nav {
+        float: none;
+        padding: 45px 0;
     }
     .reviews {
         font-size: 1.125em;
